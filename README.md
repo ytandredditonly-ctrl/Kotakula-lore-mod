@@ -7,9 +7,9 @@
 
 1. Скопировать папку `Kotakula lore mod` в папку `mods` Unciv (на ПК: рядом с `Unciv.jar` или в `%APPDATA%`/папке игры, там, где лежит `mods`).
 2. Новая игра → базовые правила *Civilization V - Gods & Kings* (или *Vanilla*) → в списке модов включить «Kotakula lore mod».
-3. Иконки упаковываются в атлас автоматически при первом запуске **десктопной** версии. Для Android сначала запустить мод на ПК, чтобы появились `game.atlas`/`game.png`, и переносить папку уже с ними.
+3. Иконки уже упакованы в атлас (`game.atlas`, `game.png`, `Atlases.json`), так что мод работает и на Android. На телефоне проще всего ставить через «Моды» → «Загрузить мод по ссылке»: `https://github.com/ytandredditonly-ctrl/Kotakula-lore-mod`.
 
-Иконки можно перерисовать: `java tools/DrawIcons.java "Kotakula lore mod/Images"` (из корня проекта), либо просто заменить PNG с теми же именами.
+Иконки можно перерисовать: `java tools/DrawIcons.java "Kotakula lore mod/Images"` (из корня проекта), либо просто заменить PNG с теми же именами. После любой правки картинок атлас нужно пересобрать: `java -cp "gdx.jar;gdx-tools.jar" tools/PackAtlas.java "Kotakula lore mod"` (libGDX 1.13.1, настройки как у упаковщика Unciv) — или один раз запустить мод в десктопной Unciv.
 
 ## Состав
 

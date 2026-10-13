@@ -1,0 +1,76 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Garden Wall
+  rotate: false
+  xy: 4, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mansish Pagoda
+  rotate: false
+  xy: 268, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mushroom Cave
+  rotate: false
+  xy: 532, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Chun Garden
+  rotate: false
+  xy: 4, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Hulimansish
+  rotate: false
+  xy: 268, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Hun-Pyr-na-Chun-Chunke
+  rotate: false
+  xy: 532, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Vedor
+  rotate: false
+  xy: 532, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Chun-Chunka Guardian
+  rotate: false
+  xy: 4, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Dodger
+  rotate: false
+  xy: 268, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Tunneler
+  rotate: false
+  xy: 796, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
