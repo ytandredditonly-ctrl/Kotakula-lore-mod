@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Tunneler",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Vedor",
+		"movement": 2,
+		"requiredTech": "Agriculture",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+			"[-50]% construction time for [All Road] improvements"],
+		"cost": 70
+	},
+	{
+		"name": "Chun-Chunka Guardian",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Hun-Pyr-na-Chun-Chunke",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+			"[+30]% Strength <when defending> <when fighting in [Jungle] tiles>",
+			"[+30]% Strength <when defending> <when fighting in [River] tiles> <in tiles without [Jungle]>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dodger",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "Hulimansish",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Withdraws before melee combat <with [80]% chance>", "[+1] Movement", "[+1] Sight"],
+		"attackSound": "arrow"
+	}
+]
